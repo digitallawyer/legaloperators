@@ -2,40 +2,124 @@
 layout: default
 ---
 
-<div>
+ <div class="d-flex" id="wrapper">
 
-  {%- if page.title -%}
-  <header>
-    <h1>{{ page.title }}</h1>
-  </header>
-  {%- endif -%}
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Government Status</div>
+      <div class="list-group list-group-flush">
 
-  <section>
-    {{ content }}
-  </section>
+        <a href="#" class="list-group-item list-group-item-action bg-light">United States</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">China</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Japan</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Germany</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">United Kingdom</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">France</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
 
-  {%- if site.posts.size > 0 -%}
-    <p class="h4">{{ page.list_title | default: "Posts" }}</p>
-    <ul class="list-unstyled">
-      {%- for post in site.posts -%}
-      <li>
-        <span class="text-muted">
-          {%- assign date_format = "%b %-d, %Y" -%}
-          {{ post.date | date: date_format }}
-        </span>
-        <p class="h5">
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </p>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-light" id="menu-toggle"><span class="navbar-toggler-icon"></span></button>
 
-</div>
+      
+      </nav>
+
+      <div class="container-fluid">
+        <h1 class="mt-4">Government Status</h1>
+        <div class="alert alert-warning" role="alert">
+          The United States Government is set to shut down in <span class="text-danger">5d 5h 45m 33s</span>
+        </div>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Country</th>
+              <th scope="col">Population</th>
+              <th scope="col">GDP</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="images/4x3/um.svg" style="width:24px;" class="mr-2">United States</td>
+              <td>329,093,110 </td>
+              <td>20,513,000</td>
+              <td><span class="badge badge-warning badge-pill">Warning</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/4x3/cn.svg" style="width:24px;" class="mr-2">China</td>
+              <td>1,420,062,022</td>
+              <td>14,092.51</td>
+              <td><span class="badge badge-success badge-pill">Active</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/4x3/jp.svg" style="width:24px;" class="mr-2">Japan</td>
+              <td>126,854,745</td>
+              <td>5,167.05</td>
+              <td><span class="badge badge-success badge-pill">Active</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/4x3/de.svg" style="width:24px;" class="mr-2">Germany</td>
+              <td>126,854,745</td>
+              <td>4,211.64</td>
+              <td><span class="badge badge-success badge-pill">Active</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/4x3/gb.svg" style="width:24px;" class="mr-2">United Kingdom</td>
+              <td>126,854,745</td>
+              <td>2,936.29</td>
+              <td><span class="badge badge-success badge-pill">Active</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/4x3/fr.svg" style="width:24px;" class="mr-2">France</td>
+              <td>126,854,745</td>
+              <td>2,925.10</td>
+              <td><span class="badge badge-success badge-pill">Active</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/4x3/in.svg" style="width:24px;" class="mr-2">India</td>
+              <td>126,854,745</td>
+              <td>2,848.23</td>
+              <td><span class="badge badge-success badge-pill">Active</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/4x3/it.svg" style="width:24px;" class="mr-2">Italy</td>
+              <td>126,854,745</td>
+              <td>2,181.97</td>
+              <td><span class="badge badge-success badge-pill">Active</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/4x3/br.svg" style="width:24px;" class="mr-2">Brazil</td>
+              <td>126,854,745</td>
+              <td>2,138.92</td>
+              <td><span class="badge badge-success badge-pill">Active</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/4x3/ca.svg" style="width:24px;" class="mr-2">Canada</td>
+              <td>126,854,745</td>
+              <td>1,798.51</td>
+              <td><span class="badge badge-success badge-pill">Active</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
