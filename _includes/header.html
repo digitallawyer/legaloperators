@@ -24,7 +24,7 @@
           <a class="nav-link {% if page.title == 'Why Join?' %}active{% endif %}" href="/why-join">Why Join?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/blog">Blog</a>
+          <a class="nav-link {% if page.title == 'Blog' %}active{% endif %}" href="/blog">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link {% if page.title == 'Events' %}active{% endif %}" href="/events">Events</a>
@@ -37,10 +37,10 @@
             Resources
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Slack Channel</a>
+            <a class="dropdown-item" href="https://legaloperators.slack.com" target="_blank">Slack Channel</a>
             <a class="dropdown-item" href="#">Vendor Directory</a>
             <a class="dropdown-item" href="/community-guidelines">Community Guidelines</a>
-            <a class="dropdown-item" href="#">A guide to using Slack</a>
+            <a class="dropdown-item" href="/slack-guide">Slack Guide</a>
           </div>
         </li>
       </ul>
