@@ -101,6 +101,8 @@
 
     
     <form class="form-signin" action="https://formspree.io/contact@legaloperators.com" method="POST">
+          <input type="hidden" name="_next" value="https://www.legaloperators.com/thanks.html"/>
+
           <div class="text-center mb-4">
             <a href="/">
               <img class="mb-4" src="/assets/images/logo.png" alt="" width="72" height="72">
@@ -122,11 +124,7 @@
             <label for="inputProfile">Your job title</label>
           </div>
 
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me" id="checky"> I have read and agree to the <a href="/community-guidelines" target="_blank">community guidelines</a>.
-            </label>
-          </div>
+          <p class="text-muted text-center"> Membership is subject to the <a href="/community-guidelines" target="_blank">community guidelines</a>.</p>
           <button class="btn btn-lg btn-darker btn-block" type="submit" value="Send" id="postme"> Submit Membership Application</button>
           <p class="mt-3 mb-3 text-muted text-center"><a href="/">Return to Homepage</a></p>
         </form>
