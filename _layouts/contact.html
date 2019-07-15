@@ -138,7 +138,8 @@
   <body>
     
     
-    <form class="form-signin">
+    <form class="form-signin" action="https://formspree.io/contact@legaloperators.com" method="POST">
+          <input type="hidden" name="_next" value="https://www.legaloperators.com/thanks.html"/>
           <div class="text-center mb-4">
             <a href="/">
               <img class="mb-4" src="/assets/images/logo.png" alt="" width="72" height="72">
@@ -147,24 +148,24 @@
             
           </div>
           <div class="form-group">
-            <select class="form-control" id="inputTopic">
-              <option>I have a question about membership</option>
-              <option>I have a question about sponsorship</option>
-              <option>I want to talk about a product or service</option>
-              <option>I have an issue with the site</option>
-              <option>Something else</option>
+            <select name="Reason" class="form-control" id="inputTopic">
+              <option value="I have a question about membership">I have a question about membership</option>
+              <option value="I have a question about sponsorship">I have a question about sponsorship</option>
+              <option value="I want to talk about a product or service">I want to talk about a product or service</option>
+              <option value="I have an issue with the site">I have an issue with the site</option>
+              <option value="Something else">Something else</option>
             </select>
           </div>
           <div class="form-label-group">
-            <input type="text" id="inputName" class="form-control" placeholder="Name" required="" autofocus="">
+            <input type="text" name="Name" id="inputName" class="form-control" placeholder="Name" required="" autofocus="">
             <label for="inputName">Your full name</label>
           </div>
           <div class="form-label-group">
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+            <input type="email" name="Email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
             <label for="inputEmail">Your email</label>
           </div>
           <div class="form-label-group">
-            <textarea id="inputMessage" class="form-control" placeholder="Your job title" required=""></textarea>
+            <textarea id="inputMessage" name="Message" class="form-control" placeholder="Your job title" required=""></textarea>
             <label for="inputMessage">Your message</label>
           </div>
           <button class="btn btn-lg btn-darker btn-block" type="submit" id="postme"> Send us a message</button>
