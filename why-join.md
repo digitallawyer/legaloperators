@@ -3,21 +3,21 @@ layout: page
 title: Why Join?
 ---
 
-Legal Operators is the leading private community for legal operations professionals. Connect with peers. Brainstorm problems and discover solutions. Access resources and vendor info in a private environment.
+Legal Operators is the leading private community for legal operations professionals to connect with peers, brainstorm problems and discover solutions. Access resources and vendor info in a private environment.
 
 <div class="row">
 <div class="col-md-6">
 	<h4 class="my-3">Members get access to</h4>
 	<ul>
 		<li>Hundreds of legal operations professionals from around the world</li>
-		<li>New discussions posted daily with thousands of messages</li>
+		<li>New topic-specific discussions posted daily with thousands of messages</li>
 		<li>Curated legal industry news across dozens of topics</li>
 		<li>Exclusive events and benefits for members</li>
 		<li>Local meetups and conferences</li>
 	</ul>
 	<h4 class="my-3">Why we're different</h4>
-	<p>We are a private and vetted community. We take the time to personally reach out to each and every one of our new members because community is of the utmost importance to us.</p>
-	<p>Not only will you find yourself among peers in the industry, you’ll have the ability to personally connect with other legal operations professionals from around the world.</p>
+	<p>We are a private and vetted community. We take the time to personally reach out to each and get to know our members. Community is the utmost importance, and most valuable driver.  </p>
+	<p>We believe that the legal operations eco-system is more than just in-house corporate legal operations professionals, but it includes technology vendors, law firms, and consultants.  Anyone who is committed to advancing the legal operations profession, and open to sharing ideas and experiences is part of this community.   You will find yourself connecting with industry peers, subject matter experts, and other like-minded professional from around the world.</p>
 
 </div>
 <div class="col-md-6">
@@ -28,7 +28,7 @@ Legal Operators is the leading private community for legal operations profession
 
 **What’s involved with the application process?**
 
-To <a href="/join">apply</a>, you’ll need to fill out a short questionnaire about you and your background. We will review your application and may request additional verification of your background, in particular if you were not referred through another community member or did not apply with your professional email address. The application takes less than 2 minutes to complete.
+To <a href="/join">apply</a>, you’ll need to fill out a short questionnaire (only takes 2 minutes to complete). Your application will be reviewed and additional information may be requested,  if you were not referred through another community member or did not apply with your professional email address.
 
 **How to know if you’re the right fit?**
 
@@ -42,4 +42,4 @@ This is not a group of lurkers. Every member typically gives as much as he or sh
 
 **Is there a fee?**
 
-There is currently no fee to become a member. Our community is for people who want to better themselves and their practice – while having some fun. We want each and every one of our member’s to be a contributor and member for life.
+There is currently no fee to become a member. Our community is for people who want to better themselves and their practice – while having some fun. We want each member to be an active contributor and member for life.
