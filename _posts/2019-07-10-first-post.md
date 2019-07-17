@@ -1,163 +1,47 @@
 ---
 layout: post
-title:  "First Post!"
+title:  "Introducing the Legal Operators Community"
 author: "Colin McCarthy"
 summary: "An inaugural post for Legal Operators."
 ---
 
-This blog makes use of markdown, a simple file format in which blog posts are created in a markdown (.md) file.
+Legal Operators is the leading private community for legal operations professionals to connect with peers, brainstorm problems and discover solutions. Access resources and vendor info in a private environment.
 
-A markdown file is just a text file that follows certain examples. Paragraphs are separated by a blank line.
+<div class="row">
+<div class="col-md-6">
+  <h4 class="my-3">Members get access to</h4>
+  <ul>
+    <li>Hundreds of legal operations professionals from around the world</li>
+    <li>New topic-specific discussions posted daily with thousands of messages</li>
+    <li>Curated legal industry news across dozens of topics</li>
+    <li>Exclusive events and benefits for members</li>
+    <li>Local meetups and conferences</li>
+  </ul>
+  <h4 class="my-3">Why we're different</h4>
+  <p>We are a private and vetted community. We take the time to personally reach out to each and get to know our members. Community is the utmost importance, and most valuable driver.  </p>
+  <p>We believe that the legal operations eco-system is more than just in-house corporate legal operations professionals, but it includes technology vendors, law firms, and consultants.  Anyone who is committed to advancing the legal operations profession, and open to sharing ideas and experiences is part of this community.   You will find yourself connecting with industry peers, subject matter experts, and other like-minded professional from around the world.</p>
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+</div>
+<div class="col-md-6">
+  <img src="/assets/images/event1.jpg">
+</div>
+</div>
+<h4 class="my-3">Frequently asked question</h4>
 
-  * this one
-  * that one
-  * the other one
+**What’s involved with the application process?**
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+To <a href="/join">apply</a>, you’ll need to fill out a short questionnaire (only takes 2 minutes to complete). Your application will be reviewed and additional information may be requested,  if you were not referred through another community member or did not apply with your professional email address.
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+**How to know if you’re the right fit?**
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+You have a background in legal operations, whether you are just starting out or are already far-advanced in your career. You take your work very seriously, and are looking for a place where you can get smarter, faster. If you get all that, you’re in the right place. It’s a community of legal operations professionals with their ties loosened, cutting up and mentoring each other.
 
+**What should you expect?**
 
+A thriving and vibrant place to check out on a daily basis. Each day you’ll find new and relevant discussions, industry news, and questions posed from other legal operations professionals. The community uses our private Slack group.
 
-An h2 header
-------------
+This is not a group of lurkers. Every member typically gives as much as he or she receives from the community. Our members will be the first to tell you that this community is guaranteed to help you move your career in a better direction.
 
-Here's a numbered list:
+**Is there a fee?**
 
- 1. first item
- 2. second item
- 3. third item
-
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
-
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
-
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
-
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
-
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
-
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-~~~
-
-
-
-### An h3 header ###
-
-Now a nested list:
-
- 1. First, get these ingredients:
-
-      * carrots
-      * celery
-      * lentils
-
- 2. Boil some water.
-
- 3. Dump everything in the pot and follow
-    this algorithm:
-
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
-
-Tables can look like this:
-
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)
-
-Here's a "line block":
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](example-image.jpg "An exemplary image")
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+There is currently no fee to become a member. Our community is for people who want to better themselves and their practice – while having some fun. We want each member to be an active contributor and member for life.
