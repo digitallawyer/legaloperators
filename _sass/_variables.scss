@@ -6,6 +6,11 @@
 // Some customization of the container class to have a better display in the guide.
 // Don't hesitate to remove it to have a standard Bootstrap behavior
 
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
 .btn-darker { 
   color: #FFFFFF; 
   background-color: #254A65; 

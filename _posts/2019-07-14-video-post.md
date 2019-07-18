@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Video Post!"
-author: "Quentin Tarantino"
-summary: "Just a fun and fancy video!"
-
+title:  "Legal Operators Happy Hour"
+author: "Nicholas O'Keefe"
+summary: "Impressions from the Legal Operators Happy Hour, hosted by Legal.io and Penningtons Manches Cooper LLP"
+image: "event1.jpg"
 ---
 
 <div class="embed-responsive embed-responsive-16by9">

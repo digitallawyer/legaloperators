@@ -2,7 +2,8 @@
 layout: post
 title:  "Legal Operators Community Guidelines"
 author: "Pieter Gunst"
-summary: "Guidelines for participating in the Legal Operators Community"
+summary: "In order to meet the goals of this community, it’s important for members to feel like they are in a safe place that is populated by people with shared interests. These guidelines form the basis for interactions with the Legal Operators Community"
+image: "community.jpg"
 ---
 
 The goals of this community are to assist members in their professional and personal pursuits, to help maintain friendships and connections formed during the course of business, to build strong and mutually beneficial ties between all members, to promote goodwill in the community and to stimulate interest and enhance involvement with our institution through increased opportunities for engagement.

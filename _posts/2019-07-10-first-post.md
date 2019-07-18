@@ -2,7 +2,8 @@
 layout: post
 title:  "Introducing the Legal Operators Community"
 author: "Colin McCarthy"
-summary: "An inaugural post for Legal Operators."
+summary: "An inaugural post for Legal Operators, the leading private community for legal operations professionals."
+image: "wave.jpg"
 ---
 
 Legal Operators is the leading private community for legal operations professionals to connect with peers, brainstorm problems and discover solutions. Access resources and vendor info in a private environment.

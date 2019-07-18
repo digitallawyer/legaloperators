@@ -20,20 +20,29 @@ layout: default
       {%- for post in site.posts -%}
         
           <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h5>
-              <h6 class="card-subtitle mb-2 text-muted small">
-                Posted on&nbsp;
-                {%- assign date_format = "%b %-d, %Y" -%}
-                {{ post.date | date: date_format }} by
-                {{ post.author | escape }}
-              </h6>
-              <p class="card-text">{{ post.summary | escape }}</p>
-              <span class="text-muted">
-                              </span>
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <a href="{{ post.url | relative_url }}">
+                  <img class="" src="/assets/images/{{ post.image }}" alt="Card image cap">
+                </a>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title | escape }}
+                    </a>
+                  </h5>
+                  <p class="card-text">{{ post.summary | escape }}</p>
+                  <p class="card-text text-muted small">
+                    Posted on&nbsp;
+                    {%- assign date_format = "%b %-d, %Y" -%}
+                    {{ post.date | date: date_format }} by
+                    {{ post.author | escape }}
+                  </h6>
+                </div>
+              </div>
             </div>
           </div>
-        </a>
 
       {%- endfor -%}
   {%- endif -%}
