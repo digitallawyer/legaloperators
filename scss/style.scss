@@ -69,7 +69,9 @@ a:active {
 		text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 	}
 }
-
+.modal-header {
+	background:$gray-200;
+}
 /* Primary Styles
 ---------------------------------*/
 body {
@@ -139,12 +141,16 @@ p {
 }
 /* Header Styles
 ---------------------------------*/
-
+.navbar.bg-light {
+	background:rgba(255,255,255,0.7);
+}
 .header {
 	text-align: center;
 	background: url(../img/bg-city.jpg) center center no-repeat;
+	background-size: cover;
 	padding: 150px 0;
 	height: 100vh;
+	margin-top:-76px;
 }
 
 .logo {
@@ -995,6 +1001,16 @@ img {
 
 	.form {
 		margin: 0 0 0 20px
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu-right.dropdown-menu {
+		box-shadow: 0 8px 4px -4px rgba(0, 0, 0, 0.1);
+		padding: 0;
+		margin-bottom: 0;
+		margin-top:17px;
+	}
+	.dropdown-item {
+		border-top: 1px solid $gray-300;
+		padding:.5rem 1.5rem;
 	}
 }
 
