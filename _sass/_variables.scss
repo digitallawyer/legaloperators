@@ -1,0 +1,58 @@
+// This is the place to place Bootstrap's variables overrides.
+// As example you can start by importing the _variables.scss file from one of the
+// theme provided by https://bootswatch.com .
+
+
+// Some customization of the container class to have a better display in the guide.
+// Don't hesitate to remove it to have a standard Bootstrap behavior
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.btn-darker { 
+  color: #FFFFFF; 
+  background-color: #254A65; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-darker:hover, 
+.btn-darker:focus, 
+.btn-darker:active, 
+.btn-darker.active, 
+.open .dropdown-toggle.btn-darker { 
+  color: #FFFFFF; 
+  background-color: #343A40; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-darker:active, 
+.btn-darker.active, 
+.open .dropdown-toggle.btn-darker { 
+  background-image: none; 
+} 
+ 
+.btn-darker.disabled, 
+.btn-darker[disabled], 
+fieldset[disabled] .btn-darker, 
+.btn-darker.disabled:hover, 
+.btn-darker[disabled]:hover, 
+fieldset[disabled] .btn-darker:hover, 
+.btn-darker.disabled:focus, 
+.btn-darker[disabled]:focus, 
+fieldset[disabled] .btn-darker:focus, 
+.btn-darker.disabled:active, 
+.btn-darker[disabled]:active, 
+fieldset[disabled] .btn-darker:active, 
+.btn-darker.disabled.active, 
+.btn-darker[disabled].active, 
+fieldset[disabled] .btn-darker.active { 
+  background-color: #254A65; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-darker .badge { 
+  color: #254A65; 
+  background-color: #FFFFFF; 
+}
