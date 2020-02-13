@@ -1,5 +1,0 @@
----
-layout: eventstest
-title: Events
----
-
