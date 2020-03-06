@@ -62,6 +62,10 @@
                 Already a member? <a href="https://legaloperators.slack.com" target="_blank" class="text-info">Join us on Slack.</a>
             </p>
         </div><!-- END: container -->
+        <a type="button" href="#" class="video-btn text-light mt-4" data-toggle="modal" data-src="https://www.youtube.com/embed/vEyc5Taewl0" data-target="#myModal">
+           <img src="img/video.png" style="height:100px;width:100px" alt="watch our video"><br>
+           <h4 class="mt-3 mb-0">Watch Our Video</h4>
+        </a>
     </header>
     <main role="main">
         <!-- WHY JOIN ______________________________________________________________________________ -->
@@ -130,7 +134,7 @@
                                 <a class="nav-item nav-link active" id="nav-newyork-tab" data-toggle="tab" href="#nav-newyork" role="tab" aria-controls="nav-newyork" aria-selected="false">
                                     Chapter Launch:<br>
                                     <strong>New York</strong><br>
-                                    <small>3/19/20 @ 5:30pm-8:30pm</small>
+                                    <small>3/19/20 @ 5pm-8pm ET</small>
                                 </a>
                                 <hr class="border-secondary">
                                 <a class="nav-item nav-link" id="nav-additional-tab" data-toggle="tab" href="#nav-additional" role="tab" aria-controls="nav-additional" aria-selected="false">
@@ -159,7 +163,7 @@
                                         <div class="col-md-6">
                                             <h3>Evening Event</h3>
                                             <hr class="border-dark">
-                                            <h6 class="text-dark"><strong style="min-width: 100px; display:inline-block">WHEN:</strong><br>Thursday, March 19th<br>5pm-8pm ET</h6>
+                                            <h6 class="text-dark"><strong style="min-width: 100px; display:inline-block">WHEN:</strong><br>Thursday, March 19th<br>5:00 pm - 8:00 pm ET</h6>
                                             <h6 class="text-dark"><strong style="min-width: 100px; display:inline-block">WHERE:</strong><br>Bloomberg Law , 731 Lexington Ave.<br>New York City, NY</h6>
                                             <h6 class="text-dark"><strong>SPEAKER 1:</strong><br> Joe Borstein, Managing Director, EY Legal Managed</h6>
                                             <h6 class="text-dark"><strong>TOPIC 1:</strong><br>The Alt.Legal Journey.</h6>
@@ -487,6 +491,22 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <h1 aria-hidden="true">&times;</h1>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -495,6 +515,28 @@
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="https://kit.fontawesome.com/95923218da.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            // Gets the video src from the data-src on each button
+            var $videoSrc;
+            $('.video-btn').click(function () {
+                $videoSrc = $(this).data("src");
+            });
+            console.log($videoSrc);
+            // when the modal is opened autoplay it  
+            $('#myModal').on('shown.bs.modal', function (e) {
+
+                // set the video src to autoplay and not to show related video.
+                $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+            })
+            // stop playing the youtube video when I close the modal
+            $('#myModal').on('hide.bs.modal', function (e) {
+                // a poor man's stop video
+                $("#video").attr('src', $videoSrc);
+            })
+            // document ready  
+        });
+    </script>
 </body>
 
 </html>
