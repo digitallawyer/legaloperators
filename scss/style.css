@@ -9087,6 +9087,14 @@ body {
   height: 100vh;
 }
 
+.thanks {
+  text-align: center;
+  background: url(../img/bg-bridge.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  height: 100vh;
+}
+
 h2 {
   text-transform: uppercase;
 }
